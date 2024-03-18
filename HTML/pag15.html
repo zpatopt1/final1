@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .relativeText {
+            position: relative;
+            left: 150px;
+            top: -27px;
+            background-color: magenta;
+            color: white;
+        }
+        .relativeBox{
+            position: relative;
+            margin: 50px;
+            width: 400px;
+            height: 200px;
+            border: 2px solid gold;
+        }
+        .absoluteBox{
+            position: absolute;
+            right: 0;
+            top: 80px;
+            width: 200px;
+            height: 100px;
+            border: 5px solid silver;
+        }
+        .teste1{
+            width: 100px;
+            height: 500px;
+            background-color: green;
+        }
+        .teste2{
+            width: 100px;
+            height: 400px;
+            background-color: rgb(22, 22, 39);
+        }
+        .teste3{
+            width: 100px;
+            height: 300px;
+            background-color: yellow;
+        }
+        .teste4{
+            position: fixed;
+            top: 25px;
+            left: 50px;
+            width: 100px;
+            height: 70px;
+            background-color: silver;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <p>this is the normal flow....</p>
+    <span class="relativeText">
+        Jorge
+    </span>
+
+    <div class="relativeBox">teste1
+    <div class="absoluteBox">teste2</div>
+    </div>
+
+    <div class="teste1">Teste1</div>
+    <div class="teste2">Teste2</div>
+    <div class="teste3">Teste3</div>
+    <div class="teste4">Teste4</div>
+
+    <a href="../index.html">VOLTAR</a>
+</body>
+</html>

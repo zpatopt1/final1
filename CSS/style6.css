@@ -1,0 +1,21 @@
+#quote1{
+    font: bold italic 150% Garamond,conic Sans Ms, fantasy;
+    text-align: center;
+    color:brown;
+}
+
+#quote2{
+    font: bold italic  Garamond,conic Sans Ms, fantasy;
+    text-align: center;
+    color:purple;
+}
+
+#quote3{
+    font: bold italic 0.5em Garamond,conic Sans Ms, fantasy;
+    text-align: center;
+    color:gray;
+}
+#atribution {
+    font: 80% monospace;
+    text-align: right;
+}

@@ -1,0 +1,25 @@
+p{
+    color:red;
+}
+
+div {
+    color: #0000ff;
+}
+
+
+#polite{
+    font-family: cursive;
+}
+
+#rude{
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.first{
+    color: #0000ff;
+    background-color: yellow;
+    border: 1px solid black;
+}
+.done{
+    text-decoration: line-through;
+}

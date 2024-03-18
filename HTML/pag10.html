@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.a{
+            background-color: blue;
+            color: wheat;
+            transform: rotate(40deg);
+            width: 100px;
+            height: 20px;
+        }
+        div.b{
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            transform: skewY(20deg);
+        }
+        div.c{
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            transform: skewY(1.5);
+        }
+        div.original{
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            border: 1px solid black;
+        }
+        div.MOVED{
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            border: 1px solid black;
+            transform: translate(10px,20px);
+        }
+        #div1{
+            position: relative;;
+            left: 50px;
+            width: 80%;
+            border: 1px solid black;
+            background-color: purple;
+            padding: 5px;
+            text-align: center;
+        }
+        #div1 .inner{
+            width: 80%;
+            border: 1px solid black;
+            background-color: lightgreen;
+        }
+        body{
+            background-image: url("https://raw.githubusercontent.com/github/explore/05a6f4c574a32b6b2f04c2e589f6c82d9df46a5d/topics/xml/xml.png");
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h2>transform:rotate(20deg):</h2>
+    <div class="a">JOAQUIM</div>
+    <div class="b">MARCIO</div>
+    <div class="c">AMARO</div>
+    <div class="original">CAMELO</div>
+    <div class="MOVED">CAMELO MOVIMENTANDO</div>
+    <div id="div1">dasdadada</div>
+    <div id="div1" class="inner">dasdadada</div> <!--mal -->
+
+   
+    <a href="../index.html">VOLTAR</a>
+</body>
+</html>

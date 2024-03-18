@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(../img/abstract-technological-background_23-2148897676.avif);
+        }
+        .relativeBox{
+        position: relative;
+        margin: 0px;
+        height: 100%;
+        border: 2px solid black;
+        text-align: center;
+        }
+
+        .absoluteBox{
+            position: relative;
+            height: auto;
+            border: 2px solid black;
+            background-color: rgba(0, 0, 139, 0.55);
+            border-radius: 10px;
+            margin: 10px;
+            text-align: start;   
+        }
+        p {
+            color: aliceblue;
+        }
+        
+        .input{
+            width: 90%;
+            height: 30px;
+            border-radius: 5px;
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+        .radio{
+            width: 15px;
+
+        }
+        label{
+            margin-left: 21px;
+            color: aliceblue;
+            font-weight: 500;
+            font-size: x-large;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+        <h1 style="color: aliceblue;text-align: center;">Formulario</h1>
+
+        <div class="absoluteBox">
+            
+            <label for="">Nome</label><br>
+            <input class="input" type="text" name="text" id="" placeholder="Insina o seu nome" ><br><br>
+            <label for="">Nome</label><br>
+            <input class="input" type="text" name="text" id="" placeholder="Insina o seu nome" ><br><br>
+            <label for="">Nome</label><br>
+            <input class="input" type="text" name="text" id="" placeholder="Insina o seu nome" ><br><br>
+            <label for="">Nome</label><br>
+            <select name="paises" id="paises" style="width: 93%;margin-left: 20px;height: 30px;border-radius: 5px;padding-left: 20px;">
+                <option>Portugal</option>
+                <option>Spain</option>
+                <option>France</option>
+                <option>Turkey</option>
+                <option>Bosnia</option>
+                <option>Albania</option>
+            </select><br><br>
+            <label for="escolha">ESCOLHA ENTRE AS 3</label><br>
+            <label>
+                <input class="radio" type="radio" name="escolha" id="opcao1"> Opção 1
+            </label><br>
+            <label>
+                <input class="radio" type="radio" name="escolha" id="opcao2"> Opção 2
+            </label><br>
+            <label>
+                <input class="radio" type="radio" name="escolha" id="opcao3"> Opção 3
+            </label><br><br>
+            <label for="">Nome</label><br>
+            <select name="paises" id="paises" style="width: 93%;margin-left: 20px;height: 30px;border-radius: 5px;padding-left: 20px;">
+                <option>Portugal</option>
+                <option>Spain</option>
+                <option>France</option>
+                <option>Turkey</option>
+                <option>Bosnia</option>
+                <option>Albania</option>
+            </select><br><br>
+            <label for="escolha">ESCOLHA ENTRE AS 3</label><br>
+            <label>
+                <input class="radio" type="checkbox" name="escolha" id="opcao1"> Opção 1
+            </label><br>
+            <label>
+                <input class="radio" type="checkbox" name="escolha" id="opcao2"> Opção 2
+            </label><br>
+            <label>
+                <input class="radio" type="checkbox" name="escolha" id="opcao2"> Opção 2
+            </label><br>
+            <label>
+                <input class="radio" type="checkbox" name="escolha" id="opcao2"> Opção 2
+            </label><br>
+            <label>
+                <input class="radio" type="checkbox" name="escolha" id="opcao2"> Opção 2
+            </label><br>
+            <label>
+                <input class="radio" type="checkbox" name="escolha" id="opcao3"> Opção 3
+            </label><br><br>
+
+            <label for="comentarios">Comentários:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="10" cols="100%" style="width: 92%;margin-left: 20px;"></textarea>
+            <br><br><br>
+            <button type="submit" style=" background-color:greenyellow;width: 93%;height: 50px;margin-left: 20px;">Submit</button>
+            <br><br><br><br>
+        </div>
+    
+    <a href="../index.html">VOLTAR</a>
+</body>
+</html>
